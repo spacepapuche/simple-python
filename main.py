@@ -24,17 +24,7 @@ def multiplier(n1,n2):
 def diviser(n1,n2):
   print(n1/n2)
 
-#Commande répéter 1
-def répéter(n, ndeux):
-  for n in range(n):
-    print(ndeux)
-
-#Commande répéter 2
-def répéterdeux(n, a, ntrois):
-  for n in range(n, a):
-    print(ntrois)
-
-#Commande répéter 3
-def répétertrois(n, a, b, nquatre):
-  for n in range(n,a, b):
-    print(nquatre)    
+#Commande répéter
+def répéter(n, texte, a="0", b="1"):
+  for n in range(n,a,b):
+    print(texte)    
