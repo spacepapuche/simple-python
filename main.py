@@ -1,4 +1,8 @@
+import time
 print("Lancement de simple-python en cours, veuillez patienter...")
+time.sleep(2)
+print("Fait !")
+print("Afficher la liste des commandes avec aide()")
 
 #Commande afficher
 def afficher(n):
