@@ -4,6 +4,10 @@ time.sleep(2)
 print("Fait !")
 print("Afficher la liste des commandes avec aide()")
 
+#Commande d'aide
+def aide():
+  print("afficher(n)\nadditionner(n1,n2)\nsoustraire(n1,n2)\nmultiplier(n1,n2)\ndiviser(n1,n2)\ndef répéter(n, texte, a=\"0\", b=\"1\"):")
+
 #Commande afficher
 def afficher(n):
   print(n)
